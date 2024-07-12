@@ -8,11 +8,7 @@ const Cursor = () => {
   const [mount, setMount] = useState();
 
   const getCusomColor = () => {
-    if (theme.theme === "dark") {
-      return "#fff";
-    } else if (theme.theme === "light") {
-      return "#000";
-    }
+    return "#000";
   };
 
   useEffect(() => {
